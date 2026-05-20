@@ -11,6 +11,7 @@ button{
     outline-color: #3882F6;
     border-radius: 4px;
     padding: 4px 15px;
+
 }
 
 .header-top{
@@ -25,7 +26,7 @@ ul{
     padding: 0;
     gap: 15px;
     display: flex;
-    justify-content: space-evenly;
+
 }
 li{
 
@@ -36,8 +37,22 @@ li{
 
 .header-bot{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+
+    
 }
 .awesome{
+    display: flex;
+    flex-direction: column;
 
 }
+
+.placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;  
+  
+}
+
+
