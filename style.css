@@ -3,6 +3,16 @@
     font-family: Roboto;
     color: white;
 }
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    outline-color: #3882F6;
+    border-radius: 4px;
+    padding: 4px 15px;
+}
+
 .header-top{
     display:flex;
     justify-content: space-evenly;
@@ -24,3 +34,10 @@ li{
     color: #E5E7EB;
 }
 
+.header-bot{
+    display: flex;
+    justify-content: space-evenly;
+}
+.awesome{
+
+}
