@@ -1,31 +1,42 @@
 .header{
     background-color: #1f2937;
-    font-family: Roboto;
     color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 button{
+    width: 80px;
     background-color: #3882F6;
     color: white;
     border: none;
     outline-color: #3882F6;
     border-radius: 4px;
     padding: 4px 15px;
+   
+
 
 }
 
 .header-top{
+    width: 800px;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    font: 24px;
+    
+    font-size: 24px;
     color: #F9FAF8;
+    font-family: 'Roboto',sans-serif;
 
 }
 ul{
     padding: 0;
     gap: 15px;
-    display: flex;
+    display: flex;    
 
 }
 li{
@@ -38,12 +49,27 @@ li{
 .header-bot{
     display: flex;
     justify-content: center;
-
+    margin-top: 45px;
+    margin-bottom: 45px;
     
 }
+.awesome #web{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.awesome,
+.placeholder{
+    width: 400px;
+    height: 200px;
+}
 .awesome{
+    
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
 
 }
 
