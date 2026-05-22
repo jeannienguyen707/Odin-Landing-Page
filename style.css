@@ -80,5 +80,17 @@ li{
     background-color: gray;  
   
 }
+.center{
+    text-align: center;
+}
+.random{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
 
-
+.img{
+    width: 20px;
+    height: 20px;
+    border: #3882F6;
+}
