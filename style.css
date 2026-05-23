@@ -35,7 +35,6 @@ button{
 }
 ul{
     padding: 0;
-    gap: 15px;
     display: flex;    
 
 }
@@ -65,7 +64,6 @@ li{
     height: 200px;
 }
 .awesome{
-    
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -83,14 +81,31 @@ li{
 .center{
     text-align: center;
 }
+
+.four-boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
 .random{
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.img{
-    width: 20px;
-    height: 20px;
-    border: #3882F6;
+.fake-pic{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
 }
