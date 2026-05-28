@@ -36,6 +36,9 @@ button{
     font-family: 'Roboto',sans-serif;
 
 }
+.header-top ul{
+    gap: 10px;
+}
 ul{
     padding: 0;
     display: flex;    
@@ -98,6 +101,7 @@ li{
     align-items: center;
     width: 200px;
     height: 200px;
+    gap: 10px;
 }
 .image li{
     color: #1f2937;
@@ -108,6 +112,7 @@ li{
     font-weight: 900;
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 
 .fake-pic{
@@ -169,4 +174,12 @@ li{
 }
 .right-footer button{
     border: 1px solid white;
+}
+.copyright{
+    height: 100px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
